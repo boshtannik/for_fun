@@ -13,7 +13,7 @@ for i in range(1, ITERS_COUNT):
     iters.append(0.1 * i)
 
 while True:
-    time.sleep(0.1)
+    time.sleep(0.06)
     i = time.time()
     try:
         for n in range(60):
